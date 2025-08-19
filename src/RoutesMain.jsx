@@ -6,7 +6,6 @@ import About from "./view/about/About";
 import Projects from "./view/projects/Projects";
 import Contact from "./view/contact/Contact";
 import Technologies from "./view/technology/Technologies";
-import Footer from "./Components/Footer";
 
 function RoutesMain() {
   return (
@@ -19,7 +18,6 @@ function RoutesMain() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/technologies" element={<Technologies />}></Route>
       </Routes>
-      <Footer />
     </Router>
   );
 }
